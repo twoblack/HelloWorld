@@ -4,4 +4,5 @@
   <artifactId>HelloWorld</artifactId>
   <version>0.0.1-SNAPSHOT</version>
     <url>http://maven.apache.org</url>
+    <packaging>jar</packaging>
 </project>
