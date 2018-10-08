@@ -13,5 +13,6 @@ public class HelloWorld {
     public static void main(String[] args) {
         SpringApplication.run(HelloWorld.class, args);
         System.out.println(new HelloWorld().sayHello());
+        System.out.println("哈哈哈哈");
     }
 }
