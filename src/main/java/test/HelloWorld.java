@@ -11,6 +11,10 @@ public class HelloWorld {
 		return "Hello World!";
 	}
 	
+	public String say(){
+		return "Hello";
+	}
+	
     public static void main(String[] args) {
         SpringApplication.run(HelloWorld.class, args);
         System.out.println(new HelloWorld().sayHello());
@@ -20,6 +24,6 @@ public class HelloWorld {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-        System.out.println(new HelloWorld().sayHello());
+        System.out.println(new HelloWorld().say());
     }
 }
