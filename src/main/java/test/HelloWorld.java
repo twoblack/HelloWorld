@@ -14,10 +14,11 @@ public class HelloWorld {
     public static void main(String[] args) {
         SpringApplication.run(HelloWorld.class, args);
         System.out.println(new HelloWorld().sayHello());
-<<<<<<< HEAD
-        
-=======
-        System.out.println("哈哈哈哈");
->>>>>>> 706147fa7c70d92e94860d130c2965c7af57063c
+        try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
 }
