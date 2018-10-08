@@ -6,7 +6,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<url>http://maven.apache.org</url>
 	<packaging>jar</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<build>
+		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -16,8 +20,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>test.HelloWorld</mainClass>
-							<encoding>utf-8</encoding>
+							<mainClass>**fully.qualified.MainClass**</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
