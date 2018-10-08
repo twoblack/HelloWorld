@@ -7,12 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HelloWorld {
 
 	public String sayHello(){
+		System.out.println("哈哈哈哈");
 		return "Hello World!";
 	}
 	
     public static void main(String[] args) {
         SpringApplication.run(HelloWorld.class, args);
         System.out.println(new HelloWorld().sayHello());
-        System.out.println("哈哈哈哈");
+        
     }
 }
