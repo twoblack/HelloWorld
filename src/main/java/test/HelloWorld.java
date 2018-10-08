@@ -17,13 +17,8 @@ public class HelloWorld {
 	
     public static void main(String[] args) {
         SpringApplication.run(HelloWorld.class, args);
+        while(true){
         System.out.println(new HelloWorld().sayHello());
-        try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-        System.out.println(new HelloWorld().say());
+        }
     }
 }
