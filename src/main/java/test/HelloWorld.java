@@ -17,8 +17,5 @@ public class HelloWorld {
 	
     public static void main(String[] args) {
         SpringApplication.run(HelloWorld.class, args);
-        while(true){
-        System.out.println(new HelloWorld().sayHello());
-        }
     }
 }
